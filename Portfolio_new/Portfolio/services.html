@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website design</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+        <section class="services" id="services">
+            <h2 class="heading">Our <span>Services</span></h2>
+
+               <div class="services-container">
+                   <div class="services-box">
+                       <i class="bx bx-code-alt"></i>
+                       <h3>Web Development</h3>
+                       <p>
+                            Mera main focus *Frontend Development* par hai, jismein HTML, CSS aur JS shamil hai.
+                            <span id="dots1">...</span>
+                            <span id="more1">
+                                Main *Responsive Web Design* karta hoon jisse website har device par achhi dikhe. Main chahoon to *Backend* bhi sikh raha hoon taaki Full Stack projects kar sakun.
+                            </span>
+                        </p>
+                       <a href="#" class="btn" id="btn1" onclick="toggleServiceReadMore(1)">Read More</a>
+                   </div>
+                   <div class="services-box">
+                       <i class="bx bxs-paint"></i>
+                       <h3>Graphic Design</h3>
+                       <p>
+                            Main basic level ki *Graphic Designing* janta hoon.
+                            <span id="dots2">...</span>
+                            <span id="more2">
+                                Ye skills main chote logo, social media banners, aur portfolio graphics banane ke liye istemal karta hoon. Agar aapko advanced design chahiye, to main uspar abhi kaam kar raha hoon.
+                            </span>
+                        </p>
+                       <a href="#" class="btn" id="btn2" onclick="toggleServiceReadMore(2)">Read More</a>
+                   </div>
+                   <div class="services-box">
+                       <i class="bx bx-bar-chart-alt"></i>
+                       <h3>Cyber Security & Testing</h3>
+                       <p>
+                            *Cyber Security* mera sabse bada interest hai.
+                            <span id="dots3">...</span>
+                            <span id="more3">
+                                Main chote websites ke basic *Vulnerability Testing* aur *Security Audits* karne ki shuruat kar raha hoon. Mera goal is field mein *Certification* lena hai.
+                            </span>
+                        </p>
+                       <a href="#" class="btn" id="btn3" onclick="toggleServiceReadMore(3)">Read More</a>
+                   </div>
+               </div>
+        </section>
+        <footer class="footer">
+           <div class="footer-text">
+               <p>Copyright &copy; 2025 by Krish | All Rights Reseved.</p>
+           </div>
+           <div class="footer-iconTop">
+               <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+           </div>
+        </footer>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+       <script src="script.js"></script>
+</body>
+</html>
